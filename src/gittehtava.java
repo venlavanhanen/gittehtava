@@ -8,6 +8,8 @@ public class gittehtava {
     	puhelin.vari = "Musta";
     	puhelin.akunMaara = 40;
     	puhelin.tulostaTiedot();
+    	puhelin.lahetaViesti();
+    	puhelin.soita();
 
 	}
 
