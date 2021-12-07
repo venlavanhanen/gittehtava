@@ -19,6 +19,17 @@ class Puhelin
 		System.out.println("Väri: " + vari);
 		System.out.println("Akkua jäljellä: " + akunMaara);
 	}
+	public void lahetaViesti()
+	
+	{
+		System.out.println("Viesti lähetetty.");
+	}
+	
+	public void soita()
+	{
+		System.out.println("Soitetaan...");
+	}
+	
 	
 	
 	
