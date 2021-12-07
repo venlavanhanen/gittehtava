@@ -2,8 +2,25 @@
 public class gittehtava {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 	}
 
 }
+class Puhelin
+{
+	String merkki;
+	String vari;
+	int akunMaara;
+	
+	public void tulostaTiedot()
+	{
+		System.out.println("Merkki: " + merkki);
+		System.out.println("Väri: " + vari);
+		System.out.println("Akkua jäljellä: " + akunMaara);
+	}
+	
+	
+	
+}
+
